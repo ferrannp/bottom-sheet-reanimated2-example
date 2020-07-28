@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-scroll-bottom-sheet/src/index.tsx b/node_modules/react-native-scroll-bottom-sheet/src/index.tsx
+index c4dbcce..9edfb82 100644
+--- a/node_modules/react-native-scroll-bottom-sheet/src/index.tsx
++++ b/node_modules/react-native-scroll-bottom-sheet/src/index.tsx
+@@ -26,7 +26,7 @@ import Animated, {
+   Extrapolate,
+   greaterOrEq,
+   greaterThan,
+-  interpolate,
++  interpolateNode as interpolate,
+   multiply,
+   not,
+   onChange,
